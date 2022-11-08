@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     background-image: url(../img/bg.png);     
     background-repeat: no-repeat;  
     box-sizing: border-box;
@@ -30,8 +30,8 @@ body{
 }
 
 .proposta{
-    background-color: #ece9e9;
-    color: #7c7c7c;
+    background-color: #ffffff;
+    color: #2c2c2c;
     font-family: 'Roboto';
     margin-top: 1%;
     font-size: 20px;    
@@ -127,8 +127,7 @@ body{
 }
 
 .lideranca p{
-    font-size: 16px;
-    font-style: italic;
+    font-size: 17px;
 }
 
 .lideranca-efeito:hover{
@@ -167,9 +166,8 @@ body{
 
 .estudo-caso p{
     font-family: 'Roboto';
-    color: #7c7c7c;
-    font-weight: 600;
-    font-style: italic;
+    color: #2c2c2c;
+    font-weight: 600;    
     font-size: 17px;
     text-align: left;
 }
@@ -195,7 +193,7 @@ body{
 
 /* RODAPÉ */
 footer{
-    background-image: linear-gradient(to right, #082e47 ,#043858);  
+    background-image: linear-gradient(to right, #071446 ,#071446);
     color: #e6e6e6;
     box-sizing: border-box;
     min-width: 100% !important;
