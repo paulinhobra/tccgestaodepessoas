@@ -7,21 +7,13 @@
     box-sizing: border-box;
 }
 
-.navbar-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28243, 158, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-toggler {
-    border: 1px solid rgb(243, 158, 0);
-}
-
 .text-center{
     text-align: center;
 }
 
 body{
     background-color: #f0f0f0;
-    background-image: url(../img/imagem-bkp2.png);     
+    background-image: url(../img/bg.png);     
     background-repeat: no-repeat;  
     box-sizing: border-box;
 }
@@ -54,8 +46,16 @@ body{
 }
 
 /* ESTILO MENU*/
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    border: 1px solid rgb(0, 255, 0);
+}
+
 .navbar-custom{
-    background-image: linear-gradient(to right, #082e47 ,#043858);
+    background-image: linear-gradient(to right, #071446 ,#071446);
     text-transform: uppercase;
     font-weight: bolder;
     color: #e6e6e6;
@@ -67,7 +67,7 @@ body{
 
 .navbar-custom a:hover{
     transition: 1s;
-    color: rgb(243, 158, 0)
+    color: #00FF00;
 }
 
 .navbar-custom a:active{
@@ -89,16 +89,18 @@ body{
 .topo h1{
     font-size: 30px;
     font-family: 'Oswald';
-    font-weight: 500;
-    color: rgb(197, 199, 201);
-    color: rgb(243, 158, 0);    
+    font-weight: 500;    
+    color: #00ff00;
+    transition-timing-function: ease;
+    transition-duration: 4s;
 }
 
 .paragrafos{
     font-family: 'Roboto';
     margin-top: 1%;
     font-size: 20px;
-    color: #fff;
+    color: #c4c4c4;
+    font-weight: bold;
     text-align: left;
 }
 
