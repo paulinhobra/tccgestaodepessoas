@@ -18,6 +18,26 @@ body{
     box-sizing: border-box;
 }
 
+.desemprego{
+    border: 2px solid #00ff00;
+    text-align: center;
+    background-color:  rgba(7, 20 ,70, .5);
+    margin-top: 8%;
+}
+
+.desemprego h2{
+    color: #00FF00;
+    font-size: 30px;
+    font-family: 'Oswald';
+    font-weight: 500;
+}
+
+.desemprego p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #c4c4c4;
+}
+
 .imagem{
     max-width: 700px;
     max-height: 400px;
@@ -86,22 +106,39 @@ body{
     margin-top: 7%; 
 }
 
-.topo h1{
+.titulo-h1{
     font-size: 30px;
     font-family: 'Oswald';
     font-weight: 500;    
     color: #00ff00;
-    transition-timing-function: ease;
-    transition-duration: 4s;
 }
 
 .paragrafos{
     font-family: 'Roboto';
-    margin-top: 1%;
+    margin-top: -7%;
     font-size: 20px;
     color: #c4c4c4;
     font-weight: bold;
     text-align: left;
+}
+
+@media(max-width: 574px) {
+    .paragrafos{
+        font-family: 'Roboto';
+        margin-top: 6%;
+        font-size: 20px;
+        color: #c4c4c4;
+        font-weight: bold;
+        text-align: center
+    }
+
+    .titulo-h1{
+        font-size: 30px;
+        font-family: 'Oswald';
+        font-weight: 500;    
+        color: #00ff00;
+        text-align: center;
+    }
 }
 
 .center{
