@@ -65,10 +65,22 @@ body{
     margin-top: 6%;
 }
 
-#nossaspropostas h1{
+#nossaspropostas, #conclusao h1{
     font-family: 'Oswald';
     color: #007db8;
     font-weight: bolder;
+}
+
+.titulo-conclusao{
+    font-family: 'Oswald';
+    color: #007db8;
+    font-weight: bolder;
+}
+
+.paragrafo-conclusao{
+    font-family: 'Roboto';    
+    font-size: 20px;
+
 }
 
 /* ESTILO MENU*/
