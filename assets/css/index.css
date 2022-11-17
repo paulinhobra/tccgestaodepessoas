@@ -79,9 +79,8 @@ body{
 
 .paragrafo-conclusao{
     font-family: 'Roboto';    
-    font-size: 18px;
-    font-weight: bolder;
-    color: #000;
+    font-size: 18px;    
+    color: rgb(14, 13, 13);
 }
 
 /* ESTILO MENU*/
